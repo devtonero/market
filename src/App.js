@@ -7,6 +7,10 @@ function App() {
     <BrowserRouter>
       <Globalstyle />
       <Navbar />
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
     </BrowserRouter>
   );
 }
