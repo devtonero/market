@@ -1,4 +1,4 @@
-import { Navbar } from "./components";
+import { Footer, Navbar } from "./components";
 import { BrowserRouter } from "react-router-dom";
 import Globalstyle from "./globalstyles";
 import { Route, Routes } from "react-router-dom";
@@ -12,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
